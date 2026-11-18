@@ -11,6 +11,15 @@ GitHub reads this repository for files that apply to the whole organization.
 
 A repository's own copy of a file always replaces the default here.
 
+The `static/` folder holds Markdown blocks that the organization's READMEs inject with
+[inject-markdown](https://github.com/streetsidesoftware/inject-markdown):
+
+| File                    | What it is                                           |
+| ----------------------- | ---------------------------------------------------- |
+| `static/sponsor.md`     | The sponsor buttons, with dark-mode images.          |
+| `static/sponsor-pub.md` | The same buttons as plain Markdown images.           |
+| `static/footer.md`      | The "Brought to you by Street Side Software" footer. |
+
 GitHub's docs:
 
 - [Creating a default community health file](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/creating-a-default-community-health-file)
